@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteo</title>
+</head>
+<body>
+    <header>
+        <div class="date">
+            <p></p>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+                <form class="searchBar">
+                    <div class="searchByTown">
+                        <input autocomplete="off" type="search" id="searchTown" name="searchTown" placeholder="Ville">
+                        <button id="loupe" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+                       
+                        <div class="listSearch">
+                            <template class="SearchVille">
+                                <div class="VilleFound">
+                                    <p></p>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <div class="searchByGPS">
+                        <input autocomplete="off" type="search" id="latitude" name="latitude" placeholder="latitude">
+                        <input autocomplete="off" type="search" id="longitude" name="longitude" placeholder="lontitude">
+                    </div>
+                </form>
+
+            <nav class="firstPlan">
+                <template class="post-template">
+                    <div class="CurrentWeather">
+                        <h1 id="Town"></h1>
+                        <img id="meteoImg" src="" alt="">
+                        <p id="meteoTxt"></p>
+                        <h2 id="degree"></h2>
+                        <p id="humidite"></p>
+                        <p id="windspeed"></p>
+                        <p id="winddirection"></p>
+                    </div>
+                </template>
+            </nav>
+
+        </section>
+
+
+    </main>
+</body>
+<script type="module" src="main.js"></script>
+</html>

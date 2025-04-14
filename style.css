@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(220,245,240);
+    background: linear-gradient(171deg, rgba(200,235,230,1) 20%, rgba(160,215,210,1) 61%, rgba(120,200,190,1) 75%);
+    color: #003840;
+    padding: 20px;
+    box-sizing: border-box; /* Assure que le padding est inclus dans la largeur totale */
+}
+
+body.night {
+    background: rgb(0,26,49);
+    background: linear-gradient(171deg, rgba(0,26,49,1) 20%, rgba(0,85,82,1) 61%, rgba(0,133,109,1) 75%);
+    color: white;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date p {
+    font-size: 1.8rem;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+} 
+
+.searchBar input {
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    box-shadow: 3px 3px 3px rgb(132, 196, 192);
+    width: 100%;
+    flex: 1; /* sur les inputs fait qu’ils prennent toute la place dispo dans leur conteneur (et s’ajustent) */
+    min-width: 0;
+}
+
+.searchByTown {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    gap: 30px;
+}
+
+#loupe {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.searchByGPS {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    gap: 10px;
+}
+
+.listSearch {
+    position: absolute;
+    top: 102%;
+    left: 4%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px;
+    background-color: white;
+    padding: 0px 30px 0px 30px;
+    cursor: pointer;
+}
+
+.listSearch.night {
+    background-color: #003840;
+}
+
+.firstPlan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#meteoImg {
+    aspect-ratio: 1/1;
+    width: 150px;
+}
+
+.CurrentWeather p{
+    margin: 0px;
+}
