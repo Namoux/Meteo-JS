@@ -91,88 +91,88 @@ function SetCurrentWeather(name, object) {
     // Selon le temps on attribue la bon icone
     if (forecast == 0) {
         description.innerText = ("Ensoleillé");
-        iconMeteo.setAttribute("src", "icons/clear@4x.png");
+        iconMeteo.setAttribute("src", "public/clear.png");
     } else if (forecast == 1) {
         description.innerText = ("Eclaircies");
-        iconMeteo.setAttribute("src", "icons/mostly-clear@4x.png");
+        iconMeteo.setAttribute("src", "public/mostly-clear.png");
     } else if (forecast == 2) {
         description.innerText = ("Partiellement nuageux");
-        iconMeteo.setAttribute("src", "icons/partly-cloudy@4x.png");
+        iconMeteo.setAttribute("src", "public/partly-cloudy.png");
     } else if (forecast == 3) { 
         description.innerText = ("Très nuageux");
-        iconMeteo.setAttribute("src", "icons/overcast@4x.png");
+        iconMeteo.setAttribute("src", "public/overcast.png");
     } else if (forecast == 45) { 
         description.innerText = ("Brouillard");
-        iconMeteo.setAttribute("src", "icons/fog@4x.png");
+        iconMeteo.setAttribute("src", "public/fog.png");
     } else if (forecast == 48) { 
         description.innerText = ("Brouillard givré");
-        iconMeteo.setAttribute("src", "icons/rime-fog@4x.png");
+        iconMeteo.setAttribute("src", "public/rime-fog.png");
     } else if (forecast == 51) { 
         description.innerText = ("Légère brume");
-        iconMeteo.setAttribute("src", "icons/light-drizzle@4x.png");
+        iconMeteo.setAttribute("src", "public/light-drizzle.png");
     } else if (forecast == 53) { 
         description.innerText = ("Brume modérée");
-        iconMeteo.setAttribute("src", "icons/moderate-drizzle@4x.png");
+        iconMeteo.setAttribute("src", "public/moderate-drizzle.png");
     } else if (forecast == 55) { 
         description.innerText = ("Brume Dense");
-        iconMeteo.setAttribute("src", "icons/dense-drizzle@4x.png");
+        iconMeteo.setAttribute("src", "public/dense-drizzle.png");
     } else if (forecast == 80) { 
         description.innerText = ("Légère pluie");
-        iconMeteo.setAttribute("src", "icons/light-rain@4x.png");
+        iconMeteo.setAttribute("src", "public/light-rain.png");
     } else if (forecast == 81) { 
         description.innerText = ("Pluie modérée");
-        iconMeteo.setAttribute("src", "icons/moderate-rain@4x.png");
+        iconMeteo.setAttribute("src", "public/moderate-rain.png");
     } else if (forecast == 82) { 
         description.innerText = ("Forte pluie");
-        iconMeteo.setAttribute("src", "icons/heavy-rain@4x.png");
+        iconMeteo.setAttribute("src", "public/heavy-rain.png");
     } else if (forecast == 61) { 
         description.innerText = ("Légère pluie");
-        iconMeteo.setAttribute("src", "icons/light-rain@4x.png");
+        iconMeteo.setAttribute("src", "public/light-rain.png");
     } else if (forecast == 63) { 
         description.innerText = ("Pluie modérée");
-        iconMeteo.setAttribute("src", "icons/moderate-rain@4x.png");
+        iconMeteo.setAttribute("src", "public/moderate-rain.png");
     } else if (forecast == 65) { 
         description.innerText = ("Forte pluie");
-        iconMeteo.setAttribute("src", "icons/heavy-rain@4x.png");
+        iconMeteo.setAttribute("src", "public/heavy-rain.png");
     } else if (forecast == 56) { 
         description.innerText = ("Légère brume verglaçante");
-        iconMeteo.setAttribute("src", "icons/light-freezing-drizzle@4x.png");
+        iconMeteo.setAttribute("src", "public/light-freezing-drizzle.png");
     } else if (forecast == 57) { 
         description.innerText = ("Brume dense verglaçante");
-        iconMeteo.setAttribute("src", "icons/dense-freezing-drizzle@4x.png");
+        iconMeteo.setAttribute("src", "public/dense-freezing-drizzle.png");
     } else if (forecast == 66) { 
         description.innerText = ("Légère pluie verglaçante");
-        iconMeteo.setAttribute("src", "icons/light-freezing-rain@4x.png");
+        iconMeteo.setAttribute("src", "public/light-freezing-rain.png");
     } else if (forecast == 67) { 
         description.innerText = ("Forte pluie verglaçante");
-        iconMeteo.setAttribute("src", "icons/heavy-freezing-rain@4x.png");
+        iconMeteo.setAttribute("src", "public/heavy-freezing-rain.png");
     } else if (forecast == 77) { 
         description.innerText = ("Neige");
-        iconMeteo.setAttribute("src", "icons/snowflake@4x.png");
+        iconMeteo.setAttribute("src", "public/snowflake.png");
     } else if (forecast == 85) { 
         description.innerText = ("Légère neige");
-        iconMeteo.setAttribute("src", "icons/slight-snowfall@4x.png");
+        iconMeteo.setAttribute("src", "public/slight-snowfall.png");
     } else if (forecast == 86) { 
         description.innerText = ("Neige forte");
-        iconMeteo.setAttribute("src", "icons/heavy-snowfall@4x.png");
+        iconMeteo.setAttribute("src", "public/heavy-snowfall.png");
     } else if (forecast == 71) { 
         description.innerText = ("Légère neige");
-        iconMeteo.setAttribute("src", "icons/slight-snowfall@4x.png");
+        iconMeteo.setAttribute("src", "public/slight-snowfall.png");
     } else if (forecast == 73) { 
         description.innerText = ("Neige modérée");
-        iconMeteo.setAttribute("src", "icons/moderate-snowfall@4x.png");
+        iconMeteo.setAttribute("src", "public/moderate-snowfall.png");
     } else if (forecast == 75) { 
         description.innerText = ("Neige forte");
-        iconMeteo.setAttribute("src", "icons/heavy-snowfall@4x.png");
+        iconMeteo.setAttribute("src", "public/heavy-snowfall.png");
     } else if (forecast == 95) { 
         description.innerText = ("Orageux");
-        iconMeteo.setAttribute("src", "icons/thunderstorm@4x.png");
+        iconMeteo.setAttribute("src", "public/thunderstorm.png");
     } else if (forecast == 96) { 
         description.innerText = ("Orage avec grêle");
-        iconMeteo.setAttribute("src", "icons/thunderstorm-with-hail@4x.png");
+        iconMeteo.setAttribute("src", "public/thunderstorm-with-hail.png");
     } else if (forecast == 99) { 
         description.innerText = ("Orage avec grêle");
-        iconMeteo.setAttribute("src", "icons/thunderstorm-with-hail@4x.png");
+        iconMeteo.setAttribute("src", "public/thunderstorm-with-hail.png");
     }    
     
     firstPlan.appendChild(cloneTemplate);
@@ -285,7 +285,7 @@ export function searchBySubmit () {
             nameTown.innerText = (message);
 
             const iconMeteo = cloneTemplate.querySelector("#meteoImg");
-            iconMeteo.setAttribute("src", "icons/not-found-location.png");
+            iconMeteo.setAttribute("src", "public/not-found-location.png");
 
             firstPlan.appendChild(cloneTemplate);
         };
